@@ -1,3 +1,80 @@
-h1 {
-    color: red;
-}
+/* Developer
+   ========================================================================== */
+
+/**
+ * Josie Maldonado
+ * Live 
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Raleway:wght@300;500&display=swap');
+ * {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  body,
+  html {
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #f0f4fb;
+  }
+
+  header {
+    margin: 1% 7%;
+  }
+
+  nav {
+    justify-content: end;
+  }
+
+  nav ul {
+    justify-content: space-around;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+  nav li {
+    list-style: none;
+  }
+
+  nav ul li {
+    margin: auto;
+  }
+
+  .border {
+    border: 1px solid red;
+  }
+  
+  .flex {
+    display: flex;
+  }
+
+  .logo {
+    height: 55px;
+  }
+
+  .logo-container {
+    align-items: center;
+  }
+
+  .full-name-logo {
+    background: url('../imgs/Josie-Prince.png') no-repeat;
+    width: 50%;
+    height: 45%;
+    background-position-y: 37%;
+  }
+
+  .all-btns {
+    padding: 10px 24px;
+    border-radius: 500px;
+    background-color: #714aff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    letter-spacing: .5px;
+  }
+
+
+ 
