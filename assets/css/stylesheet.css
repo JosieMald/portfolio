@@ -6,75 +6,155 @@
  * Live 
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Raleway:wght@300;500&display=swap');
- * {
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-  }
-  
-  body,
-  html {
-    min-width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background: #f0f4fb;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400&family=Raleway:wght@400;800&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+}
 
-  header {
-    margin: 1% 7%;
-  }
+body,
+html {
+  min-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #f0f4fb;
+}
 
-  nav {
-    justify-content: end;
-  }
+header {
+  margin: 1% 7%;
+}
 
-  nav ul {
-    justify-content: space-around;
-    font-family: 'Oxygen', sans-serif;
-  }
+nav {
+  justify-content: end;
+}
 
-  nav li {
-    list-style: none;
-  }
+nav ul {
+  justify-content: space-around;
+}
 
-  nav ul li {
-    margin: auto;
-  }
+nav li {
+  list-style: none;
+}
 
-  .border {
-    border: 1px solid red;
-  }
-  
-  .flex {
-    display: flex;
-  }
+nav ul li {
+  margin: auto;
+}
 
-  .logo {
-    height: 55px;
-  }
+main {
+  width: 100%;
+  height: 100vh;
+  padding: 1% 3%;
+  flex-direction: column;
+}
 
-  .logo-container {
-    align-items: center;
-  }
+.border {
+  border: 1px solid red;
+}
 
-  .full-name-logo {
-    background: url('../imgs/Josie-Prince.png') no-repeat;
-    width: 50%;
-    height: 45%;
-    background-position-y: 37%;
-  }
+.placeholder-img {
+    background: url("https://via.placeholder.com/300") no-repeat;
+    height: 100%;
+    width: 41%;
+    background-size: cover;
+}
 
-  .all-btns {
-    padding: 10px 24px;
-    border-radius: 500px;
-    background-color: #714aff;
-    color: #fff;
-    font-size: 14px;
-    line-height: 20px;
-    border: none;
-    letter-spacing: .5px;
-  }
+.flex {
+  display: flex;
+}
+
+.logo {
+  height: 55px;
+}
+
+.logo-container {
+  align-items: center;
+}
+
+.full-name-logo {
+  background: url("../imgs/Josie-Prince.png") no-repeat;
+  width: 50%;
+  height: 45%;
+  background-position-y: 37%;
+}
+
+.all-btns {
+  padding: 10px 24px;
+  border-radius: 500px;
+  background-color: #714aff;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  letter-spacing: 0.5px;
+}
+
+.dots-container {
+  flex-direction: column;
+  width: 59%;
+  height: 100%;
+}
+
+.dot-small-container {
+  width: 100%;
+  height: 50%;
+}
+
+.dot-small {
+  background: url("../imgs/dot.png") no-repeat;
+  background-size: contain;
+  width: auto;
+  height: 16%;
+  margin-top: 7%;
+  margin-left: 60%;
+}
+
+.intro-content {
+    position: absolute;
+    z-index: 1;
+    margin: 3.5% 4.2%;
+    font-family: "Raleway", sans-serif;
+}
+
+.intro-content h2 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+}
+
+.intro-content p {
+    color: #5f6a8f;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+
+.landing-page-container {
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.dots-pair-container {
+  width: 100%;
+  height: 50%;
+}
+
+.dot-large {
+  background: url("../imgs/dot.png") no-repeat;
+  background-size: contain;
+  width: 27%;
+  height: 100%;
+  background-position: 0 25%;
+}
+
+.dot-medium {
+  background: url("../imgs/dot.png") no-repeat;
+  background-size: contain;
+  width: 12%;
+  height: 100%;
+  margin-left: 53%;
+  background-position: 0 15%;
+}
 
 
- 
