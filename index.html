@@ -1,47 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/stylesheet.css" />
-</head>
-<body>
+  </head>
+  <body>
     <main class="flex" id="home">
-    <header class="flex">
-        <div class="logo-container flex" style="width: 40%;">
-            <img class="logo" src="./assets/imgs/logo.svg" alt="coding brackets" />
-            <div class="full-name-logo"></div>
+      <header class="flex">
+        <div class="logo-container flex" style="width: 40%">
+          <img
+            class="logo"
+            src="./assets/imgs/logo.svg"
+            alt="coding brackets"
+          />
+          <div class="full-name-logo"></div>
         </div>
         <nav class="flex" style="width: 60%">
-            <ul class="flex" style="width: 70%;">
-                <li><a>About</a></li>
-                <li><a>Services</a></li>
-                <li><a>Work</a></li>
-                <li><button class="all-btns">Contact</button></li>
-            </ul>
+          <ul class="flex" style="width: 70%">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact" class="all-btns">Contact</a></li>
+          </ul>
         </nav>
-    </header>
-    <section class="flex landing-page-container">
-    <div class="intro-content" style="width: 47%;"> 
-        <h2>Hi I'm Josie, a <span style="color: #714aff; font-family: Raleway, sans-serif;">Shopify</span> Expert and Full Stack Dev</h2>
-        <p>My goal is to help your business grow Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iusto odit qui similique autem est, ipsam numquam laboriosam neque.</p>
-        <button class="all-btns main-btn">Discover my work</button>
-    </div>
+      </header>
+      <section class="flex landing-page-container">
+        <div class="intro-content" style="width: 47%">
+          <h2>
+            Hi I'm Josie, a
+            <span style="color: #714aff; font-family: Raleway, sans-serif"
+              >Shopify</span
+            >
+            Expert and Full Stack Dev
+          </h2>
+          <p>
+            My goal is to help your business grow Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Amet iusto odit qui similique autem
+            est, ipsam numquam laboriosam neque.
+          </p>
+          <button class="all-btns main-btn">Discover my work</button>
+        </div>
         <div class="dots-container flex">
-            <div class="dot-small-container">
-                <div class="dot-small"></div>
-            </div>
-            <div class="flex dots-pair-container">
-                <div class="dot-large"></div>
-                <div class="dot-medium"></div>
-            </div>
+          <div class="dot-small-container">
+            <div class="dot-small"></div>
+          </div>
+          <div class="flex dots-pair-container">
+            <div class="dot-large"></div>
+            <div class="dot-medium"></div>
+          </div>
         </div>
         <div class="placeholder-img"></div>
-    </section>
+      </section>
     </main>
+    <section id="services" class="flex">
+        <h2>Services</h2>
+        <div class="services-container flex">
+        <div class="service-box">
+          <div class="service-icon">
+            <img src="./assets/imgs/pencil.svg" loading="lazy" alt="" />
+          </div>
+          <h3>Customize with ease</h3>
+          <p>
+            The value of design has been discussed a lot in the recent years.
+            It's recognized that design is a critical factor in creating
+            successful products.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon doc">
+            <img src="./assets/imgs/doc.svg" loading="lazy" alt="" />
+          </div>
+          <h3>Customize with ease</h3>
+          <p>
+            The value of design has been discussed a lot in the recent years.
+            It's recognized that design is a critical factor in creating
+            successful products.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon light">
+            <img src="./assets/imgs/light.svg" loading="lazy" alt="" />
+          </div>
+          <h3>Customize with ease</h3>
+          <p>
+            The value of design has been discussed a lot in the recent years.
+            It's recognized that design is a critical factor in creating
+            successful products.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon tool">
+            <img src="./assets/imgs/tool.svg" loading="lazy" alt="" />
+          </div>
+          <h3>Customize with ease</h3>
+          <p>
+            The value of design has been discussed a lot in the recent years.
+            It's recognized that design is a critical factor in creating
+            successful products.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="work">
+        <h2>Recent Work</h2>
+    </section> -->
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
