@@ -59,11 +59,16 @@ a {
   border: 1px solid red;
 }
 
-.placeholder-img {
-  background: url("https://via.placeholder.com/300") no-repeat;
-  height: 100%;
-  width: 41%;
+.headshot-img {
+  background: url("../imgs/headshot-1.jpg") no-repeat;
+  height: 80%;
+  width: 35%;
+  margin: auto;
   background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  border: 10px #fff solid;
+  box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
 }
 
 .flex {
@@ -313,8 +318,69 @@ a {
   font-size: 14px;
 }
 
+.about-container {
+    margin: 0 20%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about-text-container {
+    width: 60%;
+    height: 100%;
+}
+
+.about-text-container h2, .about-img-container h2 {
+    margin-bottom: 30px;
+    font-family: Raleway, sans-serif;
+    color: #252b3a;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.about-text-container p {
+    color: #5f6a8f;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.about-img-container {
+    width: 30%;
+    height: 59vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img-container h2 {
+    text-align: center;
+}
+
+
+.about-img {
+    background: url("../imgs/headshot-3.jpg") no-repeat;
+    width: 100%;
+    height: 58%;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    border: 10px #fff solid;
+    box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
+}
+
+.social-media-container {
+    width: 50%;
+    height: 10%;
+    justify-content: space-evenly;
+}
+
+.fa_custom {
+    color: #99aecf;
+}
+
 #services,
-#work {
+#work,
+#about {
   flex-direction: column;
   align-items: center;
   padding: 60px 0;
@@ -328,4 +394,11 @@ a {
   font-size: 36px;
   line-height: 46px;
   font-weight: 700;
+}
+
+#about {
+    flex-direction: row !important;
+    height: 90vh;
+    align-items: flex-start;
+    /* justify-content: space-between; */
 }
