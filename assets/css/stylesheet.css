@@ -427,7 +427,7 @@ textarea {
 }
 
 .mobile-only {
-    display: none;
+  display: none;
 }
 
 #services,
@@ -465,126 +465,127 @@ textarea {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body,
-    html {
-      max-width: 100%;
-      height: auto;
-    }
-    input, textarea {
-        width: 100%;
-    }
-    form h2 {
-        font-size: 27px;
-        line-height: 36px;
-    }
-    .mobile-only {
-        display: block;
-    }
-    .laptop-only {
-        display: none;
-    }
-    .landing-page-container {
-        flex-direction: column;
-    }
-    .headshot-img {
-        width: 70%;
-        margin-top: 5%;
-    }
-    .intro-content {
-        flex-direction: column;
-        width: 95% !important;
-        margin: 84% 0 0;
-    }
-    .intro-content h2 {
-        margin-top: 0px;
-        font-size: 26px;
-        line-height: 36px;
-    }
-    .intro-content p {
-        /* white-space: break-spaces; */
-        font-size: 14px;
-        line-height: 28px;
-    }
-    .intro-content .main-btn {
-        width: 50%;
-        margin: auto;
-    }
-    .dots-container {
-        width: 100%;
-    }
-    .dot-small-container {
-        height: 35%;
-    }
-    .dot-small {
-        height: 44%;
-        margin-top: 14%;
-        margin-left: 87%;
-    }
-    .dot-medium {
-        width: 27%;
-        height: 56%;
-        margin-left: 10%;
-        margin-top: 34%;
-    }
-    .dot-large {
-        width: 53%;
-        height: auto;
-    }
-    .services-container {
-        flex-direction: column;
-        padding: 0;
-    }
-   
-    .service-box, .work-img-container {
-        width: 100%;
-        margin: 0 0 5%;
-    }
-    #services, #work {
-        padding: 20px;
-    }
-    #work {
-        height: auto;
-    }
-    #about {
-        margin-top: 100%;
-        padding-top: 100%;
-        height: 100%;
-    }
+  body,
+  html {
+    max-width: 100%;
+    height: auto;
+  }
+  input,
+  textarea {
+    width: 100%;
+  }
+  form h2 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .laptop-only {
+    display: none;
+  }
+  .landing-page-container {
+    flex-direction: column;
+  }
+  .headshot-img {
+    width: 70%;
+    margin-top: 5%;
+  }
+  .intro-content {
+    flex-direction: column;
+    width: 95% !important;
+    margin: 84% 0 0;
+  }
+  .intro-content h2 {
+    margin-top: 0px;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .intro-content p {
+    /* white-space: break-spaces; */
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .intro-content .main-btn {
+    width: 50%;
+    margin: auto;
+  }
+  .dots-container {
+    width: 100%;
+  }
+  .dot-small-container {
+    height: 35%;
+  }
+  .dot-small {
+    height: 44%;
+    margin-top: 14%;
+    margin-left: 87%;
+  }
+  .dot-medium {
+    width: 27%;
+    height: 56%;
+    margin-left: 10%;
+    margin-top: 34%;
+  }
+  .dot-large {
+    width: 53%;
+    height: auto;
+  }
+  .services-container {
+    flex-direction: column;
+    padding: 0;
+  }
 
-    #contact {
-        height: 100%;
-    }
-    .section-container {
-        height: 100%;
-    }
-    .about-container {
-        flex-direction: column;
-        margin: 0 5%;
-        align-items: center;
-    }
+  .service-box, .work-img-container {
+    width: 100%;
+    margin: 0 0 5%;
+  }
+  .work-img-container {
+    height: 36vh;
+  }
 
-    .about-container h2 {
-        font-size: 28px;
-        line-height: 36px;
-    }
+  #services,
+  #work,
+  #about {
+    padding: 0;
+  }
+  #work,
+  #about,
+  #contact {
+    height: 100%;
+  }
+  .section-container {
+    flex-direction: column;
+    height: 100%;
+  }
+  .about-container {
+    flex-direction: column;
+    margin: 0 5%;
+    align-items: center;
+  }
 
-    .about-container p {
-        font-size: 15px;
+  .about-container h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .about-container p {
+    font-size: 15px;
     line-height: 26px;
-    }
+  }
 
-    .about-text-container {
-        width: 100%;
-    }
-    .about-img-container {
-        width: 70%;
-    }
-    .contact-container {
-        margin: 0 5%;
-        width: 90%;
-        padding: 60px 30px;
-        height: 95vh;
-    }
+  .about-text-container {
+    width: 100%;
+  }
+  .about-img-container {
+    width: 70%;
+  }
+  .contact-container {
+    margin: 0 5%;
+    width: 90%;
+    padding: 60px 30px;
+    height: 95vh;
+  }
 }
 /* WIDE SCREEN */
 @media only screen and (min-width: 1400px) {
@@ -609,7 +610,7 @@ textarea {
   .about-container {
     align-items: center;
   }
-  .about-img-container{
+  .about-img-container {
     width: 35%;
     height: 65vh;
   }
