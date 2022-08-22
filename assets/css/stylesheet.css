@@ -55,6 +55,43 @@ a {
   color: #252b3a;
 }
 
+form h2 {
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin: 1% 0;
+}
+
+form h4 {
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin:0;
+}
+
+input, textarea{
+    background-color: transparent;
+    border: 2px solid #714aff;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 20px;
+    padding: 14px 34px;
+    width: 50%;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+#submit {
+    width: 100%;
+}
+
 .border {
   border: 1px solid red;
 }
@@ -86,7 +123,7 @@ a {
 .full-name-logo {
   background: url("../imgs/Josie-Prince.png") no-repeat;
   width: 50%;
-  height: 45%;
+  height: 50%;
   background-position-y: 37%;
 }
 
@@ -377,10 +414,23 @@ a {
 .fa_custom {
     color: #99aecf;
 }
+.contact-container {
+    margin: 0 10%;
+    width: 80%;
+    height: 80vh;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 60px 100px;
+    border-radius: 20px;
+    background-color: #252b3a;
+    align-items: center;
+    justify-content: space-between;
+}
 
 #services,
 #work,
-#about {
+#about,
+#contact {
   flex-direction: column;
   align-items: center;
   padding: 60px 0;
@@ -397,8 +447,11 @@ a {
 }
 
 #about {
-    flex-direction: row !important;
+    flex-direction: row;
     height: 90vh;
-    align-items: flex-start;
-    /* justify-content: space-between; */
+}
+
+#contact {
+    padding-bottom: 20px;
+    height: 100vh;
 }
