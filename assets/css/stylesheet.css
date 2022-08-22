@@ -20,7 +20,7 @@ html {
   padding: 0;
   background: #f0f4fb;
   font-size: 16px;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
 }
 
 header {
@@ -51,8 +51,8 @@ main {
 }
 
 a {
-    text-decoration: none;
-    color: #252b3a;
+  text-decoration: none;
+  color: #252b3a;
 }
 
 .border {
@@ -60,10 +60,10 @@ a {
 }
 
 .placeholder-img {
-    background: url("https://via.placeholder.com/300") no-repeat;
-    height: 100%;
-    width: 41%;
-    background-size: cover;
+  background: url("https://via.placeholder.com/300") no-repeat;
+  height: 100%;
+  width: 41%;
+  background-size: cover;
 }
 
 .flex {
@@ -117,29 +117,29 @@ a {
 }
 
 .intro-content {
-    position: absolute;
-    z-index: 1;
-    margin: 3.5% 4.2%;
-    font-family: "Raleway", sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin: 3.5% 4.2%;
+  font-family: "Raleway", sans-serif;
 }
 
 .intro-content h2 {
-    font-size: 50px;
-    font-weight: 800;
-    font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
 }
 
 .intro-content p {
-    color: #5f6a8f;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
+  color: #5f6a8f;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
 }
 
 .landing-page-container {
-    height: 100%;
-    padding-bottom: 5%;
+  height: 100%;
+  padding-bottom: 5%;
 }
 
 .dots-pair-container {
@@ -164,69 +164,168 @@ a {
   background-position: 0 15%;
 }
 
-.services-container {
-    justify-content: center;
-    padding: 0 15px;
-    margin: 0 5%;
+.services-container,
+.work-container {
+  justify-content: center;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 5%;
 }
 
 .service-box {
-    background-color: #fff;
-    padding: 30px 14px;
-    border-radius: 20px;
-    box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
-    text-align: center;
-    width: 21%;
-    margin: 0 1.5%;
+  background-color: #fff;
+  padding: 30px 14px;
+  border-radius: 20px;
+  box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
+  text-align: center;
+  width: 21%;
+  margin: 0 1.5%;
 }
 
 .service-box h3 {
-    margin-top: 20px;
-    margin-bottom: 14px;
-    font-size: 22px;
-    line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 .service-box p {
-    color: #5f6a8f;
-    line-height: 26px;
-    margin-bottom: 10px;
+  color: #5f6a8f;
+  line-height: 26px;
+  margin-bottom: 10px;
 }
 
 .service-icon {
-    display: flex;
-    margin: auto;
-    width: 66px;
-    padding: 16px;
-    border-radius: 500px;
-    background-color: #fae5ef;
+  display: flex;
+  margin: auto;
+  width: 66px;
+  padding: 16px;
+  border-radius: 500px;
+  background-color: #fae5ef;
 }
 
 .doc {
-    background-color: #f3e4ff !important;
+  background-color: #f3e4ff !important;
 }
 
 .light {
-    background-color: #e7e6ff;
+  background-color: #e7e6ff;
 }
 
 .tool {
-    background-color: #dceeff;
+  background-color: #dceeff;
 }
 
-#services {
-    flex-direction: column;
-    align-items: center;
-    padding: 60px 0;
+.section-container {
+  width: 100%;
+  height: 77vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.work-img-container {
+  width: 32.4%;
+  height: 48%;
+  position: relative;
+}
+
+.work-img-container:hover .work-img {
+    background-color: black;
+  opacity: 0.3;
+}
+
+
+.work-img {
+    background: url("../imgs/projects/pool-side.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
 }
 
-#services h2, #work h2 {
-    font-family: Raleway, sans-serif;
-    color: #252b3a;
-    font-size: 36px;
-    line-height: 46px;
-    font-weight: 700;
+.graduate {
+    background: url("../imgs/projects/graduate.jpg") no-repeat;
+}
+
+.search {
+    background: url("../imgs/projects/search.jpg") no-repeat;
+}
+
+.snoopie {
+    background: url("../imgs/projects/dog.jpg") no-repeat;
+}
+
+.enlighten {
+    background: url("../imgs/projects/enlighten.jpg");
+}
+
+.tracker {
+    background: url("../imgs/projects/tracker.jpg");
 }
 
 
+.bg-properties {
+    background-size: cover;
+    background-position: center;
+}
+
+.img-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.work-img-container:hover .img-content {
+    opacity: 1;
+}
+
+.img-content h4 {
+  color: #fff;
+  font-size: 22px;
+  margin: 0;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.img-content p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#services,
+#work {
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+  width: 100%;
+}
+
+#services h2,
+#work h2 {
+  font-family: Raleway, sans-serif;
+  color: #252b3a;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+}
