@@ -446,9 +446,13 @@ input, textarea{
   font-weight: 700;
 }
 
+#work {
+    margin-bottom: 40px;
+}
+
 #about {
     flex-direction: row;
-    height: 90vh;
+    height: 100vh;
 }
 
 #contact {
