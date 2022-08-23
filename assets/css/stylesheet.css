@@ -141,6 +141,7 @@ textarea {
   line-height: 20px;
   border: none;
   letter-spacing: 0.5px;
+  cursor: pointer;
 }
 
 .dots-container {
@@ -530,6 +531,7 @@ textarea {
   .hamburger {
     left: 85%;
     position: fixed;
+    cursor: pointer;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
