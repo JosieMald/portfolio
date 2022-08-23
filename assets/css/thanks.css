@@ -82,3 +82,22 @@ h2 {
   margin-left: 53%;
   background-position: 0 15%;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body,
+  html {
+    max-width: 100%;
+    height: auto;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .dots-container {
+    width: 100%;
+  }
+  .dot-small {
+    margin-top: 16%;
+    margin-left: 51%;
+  }
+}
