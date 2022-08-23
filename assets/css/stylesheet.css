@@ -160,6 +160,7 @@ textarea {
 }
 
 .intro-content {
+  flex-direction: column;
   position: absolute;
   z-index: 1;
   margin: 3.5% 4.2%;
@@ -178,6 +179,10 @@ textarea {
   line-height: 30px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
+}
+
+.intro-content button {
+    width: 26%;
 }
 
 .landing-page-container {
@@ -459,7 +464,7 @@ textarea {
 }
 
 #contact {
-  padding-bottom: 20px;
+  padding: 20px 0;
   height: 100vh;
 }
 
@@ -469,6 +474,9 @@ textarea {
   html {
     max-width: 100%;
     height: auto;
+  }
+  header {
+    margin: 3% 0%;
   }
   input,
   textarea {
@@ -483,6 +491,59 @@ textarea {
   }
   .laptop-only {
     display: none;
+  }
+  .logo-container {
+    width: 77% !important;
+  }
+  .logo {
+    height: 30px;
+  }
+  .full-name-logo {
+    background-size: cover;
+    width: 47%;
+    height: 70%;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #252b3a;
+  }
+  .hamburger {
+    margin-left: 13%;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .mobile-menu {
+    position: absolute;
+    left: -100%;
+    top: 50px;
+    background-color: #fff;
+    width: 100% !important;
+    transition: 0.3s;
+  }
+
+  .mobile-menu ul {
+    flex-direction: column;
+    width: 100% !important;
+    align-items: center;
+    padding: 0;
+  }
+  .mobile-menu li {
+    margin: 16px 0;
+  }
+  .mobile-menu.active {
+    left: 0;
   }
   .landing-page-container {
     flex-direction: column;
@@ -502,7 +563,6 @@ textarea {
     line-height: 36px;
   }
   .intro-content p {
-    /* white-space: break-spaces; */
     font-size: 14px;
     line-height: 28px;
   }
@@ -536,7 +596,8 @@ textarea {
     padding: 0;
   }
 
-  .service-box, .work-img-container {
+  .service-box,
+  .work-img-container {
     width: 100%;
     margin: 0 0 5%;
   }
