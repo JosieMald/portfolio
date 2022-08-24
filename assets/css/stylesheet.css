@@ -174,7 +174,7 @@ textarea {
   flex-direction: column;
   position: absolute;
   z-index: 1;
-  margin: 3.5% 4.2%;
+  margin: 3.5% 4.2% 3.5% 5%;
   font-family: "Raleway", sans-serif;
 }
 
@@ -192,8 +192,16 @@ textarea {
   font-family: "Raleway", sans-serif;
 }
 
-.intro-content button {
-  width: 26%;
+.main-btn {
+  width: 21%;
+  padding: 12px 24px;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid #714aff;
+  color:#252b3a;
+  margin-left: 1%;
 }
 
 .landing-page-container {
@@ -212,7 +220,7 @@ textarea {
   background-size: contain;
   width: 27%;
   height: 100%;
-  background-position: 0 25%;
+  background-position: -19px 9%;
 }
 
 .dot-medium {
@@ -316,8 +324,8 @@ textarea {
   background: url("../imgs/projects/search.jpg") no-repeat;
 }
 
-.snoopie {
-  background: url("../imgs/projects/dog.jpg") no-repeat;
+.fashion {
+  background: url("../imgs/projects/fashion.jpg") no-repeat;
 }
 
 .enlighten {
@@ -582,31 +590,37 @@ textarea {
   .intro-content {
     flex-direction: column;
     width: 95% !important;
-    margin: 84% 0 0;
+    margin: 88% 0 0 2%;
   }
   .intro-content h2 {
     margin-top: 0px;
     font-size: 26px;
-    line-height: 36px;
+    line-height: 36px:
   }
   .intro-content p {
     font-size: 14px;
     line-height: 28px;
   }
-  .intro-content .main-btn {
-    width: 50%;
-    margin: auto;
-  }
+ .intro-buttons {
+  justify-content: space-around;
+ }
+ .main-btn {
+  width: 28%;
+ }
   .dots-container {
     width: 100%;
   }
   .dot-small-container {
     height: 35%;
   }
+  .dots-pair-container{
+    flex-direction: row-reverse;
+  }
   .dot-small {
+    width: 100%;
     height: 44%;
-    margin-top: 14%;
-    margin-left: 87%;
+    margin: 7% 0 0;
+
   }
   .dot-medium {
     width: 27%;
@@ -617,6 +631,7 @@ textarea {
   .dot-large {
     width: 53%;
     height: auto;
+    background-position: 44px 9%;
   }
   .services-container {
     flex-direction: column;
@@ -689,7 +704,6 @@ textarea {
 @media only screen and (min-width: 1400px) {
   .landing-page-container {
     margin-top: 10%;
-    border: 1px solid red;
     height: 75%;
   }
   .intro-content {
@@ -705,6 +719,9 @@ textarea {
   }
   .dot-medium {
     margin-right: 7%;
+  }
+  .main-btn {
+    width: 15%;
   }
   .about-container {
     align-items: center;
