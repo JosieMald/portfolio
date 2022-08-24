@@ -24,11 +24,17 @@ html {
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 header {
-  margin: 1% 7%;
+  position: fixed;
+  background-color: #f0f4fb;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1% 7%;
+  z-index: 100;
 }
 
 nav {
@@ -57,6 +63,10 @@ main {
 a {
   text-decoration: none;
   color: #252b3a;
+}
+
+form {
+  padding-top: 5%;
 }
 
 form h2 {
@@ -187,12 +197,13 @@ textarea {
 }
 
 .intro-content button {
-    width: 26%;
+  width: 26%;
 }
 
 .landing-page-container {
   height: 100%;
   padding-bottom: 5%;
+  padding-top:5%;
 }
 
 .dots-pair-container {
@@ -424,7 +435,7 @@ textarea {
   color: #99aecf;
 }
 .contact-container {
-  margin: 0 10%;
+  margin: 6% 10% 0;
   width: 80%;
   height: 80vh;
   flex-direction: column;
@@ -469,6 +480,8 @@ textarea {
 }
 
 #contact {
+  justify-content: center;
+  margin-top: 2%;
   padding: 20px 0;
   height: 100vh;
 }
@@ -491,15 +504,9 @@ textarea {
     font-size: 27px;
     line-height: 36px;
   }
-  header{
-    position: fixed;
-    background-color: #f0f4fb;
-    top: 0;
-    left: 0;
-    width: 100%;
+  header {
     margin: 0;
     padding: 2% 0;
-    z-index: 100;
   }
   .mobile-only {
     display: block;
@@ -681,7 +688,6 @@ textarea {
 /* WIDE SCREEN */
 @media only screen and (min-width: 1400px) {
   .landing-page-container {
-    height: 65%;
     margin-top: 5%;
   }
   .intro-content {
@@ -706,9 +712,6 @@ textarea {
     height: 65vh;
   }
   .about-img {
-    height: 50%;
-  }
-  .contact-container {
-    margin: auto;
+    height: 55%;
   }
 }
