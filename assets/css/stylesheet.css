@@ -3,7 +3,7 @@
 
 /**
  * Josie Maldonado
- * Live 
+ * Live August 22, 2022
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400&family=Raleway:wght@400;700;800&display=swap");
@@ -103,10 +103,6 @@ textarea {
   color: #fff;
 }
 
-#submit {
-  width: 100%;
-}
-
 .border {
   border: 1px solid red;
 }
@@ -203,7 +199,7 @@ textarea {
 .landing-page-container {
   height: 100%;
   padding-bottom: 5%;
-  padding-top:5%;
+  padding-top: 5%;
 }
 
 .dots-pair-container {
@@ -486,6 +482,10 @@ textarea {
   height: 100vh;
 }
 
+#submit {
+  width: 100%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body,
@@ -632,26 +632,6 @@ textarea {
     height: 36vh;
   }
 
-  #services,
-  #work,
-  #about {
-    padding: 0;
-  }
-  #services h2,
-  #work h2 {
-    margin-top: 12%;
-  }
-  #about h2 {
-    margin-top: 15%;
-  }
-  #work,
-  #about,
-  #contact {
-    height: 100%;
-  }
-  #contact {
-    padding-top: 13%;
-  }
   .section-container {
     flex-direction: column;
     height: 100%;
@@ -683,6 +663,26 @@ textarea {
     width: 90%;
     padding: 60px 30px;
     height: 90vh;
+  }
+  #services,
+  #work,
+  #about {
+    padding: 0;
+  }
+  #services h2,
+  #work h2 {
+    margin-top: 12%;
+  }
+  #about h2 {
+    margin-top: 15%;
+  }
+  #work,
+  #about,
+  #contact {
+    height: 100%;
+  }
+  #contact {
+    padding-top: 13%;
   }
 }
 /* WIDE SCREEN */
