@@ -688,7 +688,9 @@ textarea {
 /* WIDE SCREEN */
 @media only screen and (min-width: 1400px) {
   .landing-page-container {
-    margin-top: 5%;
+    margin-top: 10%;
+    border: 1px solid red;
+    height: 75%;
   }
   .intro-content {
     margin-left: 10%;
@@ -712,6 +714,6 @@ textarea {
     height: 65vh;
   }
   .about-img {
-    height: 55%;
+    height: 48%;
   }
 }
