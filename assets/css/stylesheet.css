@@ -193,8 +193,9 @@ textarea {
 }
 
 .main-btn {
-  width: 21%;
+  width: 18%;
   padding: 12px 24px;
+  text-align: center;
 }
 
 .secondary-btn {
