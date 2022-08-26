@@ -107,17 +107,6 @@ textarea {
   border: 1px solid red;
 }
 
-.headshot-img {
-  background: url("../imgs/headshot-1.jpg") no-repeat;
-  height: 80%;
-  width: 35%;
-  margin: auto;
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  border: 10px #fff solid;
-  box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
-}
 
 .flex {
   display: flex;
@@ -190,6 +179,46 @@ textarea {
   line-height: 30px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
+}
+
+.headshot-img {
+  background-color: transparent;
+  background: url("../imgs/transparent-bg-designify\ \(5\).png") no-repeat;
+  height: 80%;
+  width: 35%;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+
+
+.dots-hash-container {
+  position: absolute;
+    width: 50%;
+    height: 64%;
+    top: 18%;
+    left: 50%;
+    z-index: 0;
+}
+
+.large-dots-hash {
+  background: url("../imgs/large-dots-hash.png") no-repeat;
+  width: 50%;
+  height: 100px;
+  margin-top:7%;
+  margin-left: 70%;
+  }
+
+.small-dots-hash {
+background: url("../imgs/mini-dots-hash.png") no-repeat;
+width: 50%;
+height: 125px;
+margin-top:26%;
+margin-left: 15%;
 }
 
 .main-btn {
@@ -565,6 +594,7 @@ textarea {
     background-color: #fff;
     width: 100% !important;
     transition: 0.3s;
+    z-index: 1000 !important;
   }
 
   .mobile-menu ul {
@@ -585,8 +615,27 @@ textarea {
     margin-top: 10%;
   }
   .headshot-img {
-    width: 70%;
+    width: 68%;
     margin-top: 5%;
+  }
+  .dots-hash-container{
+    width: 76%;
+    height: 45%;
+    top: 9%;
+    left: 9%;
+  }
+  .large-dots-hash, .small-dots-hash {
+    background-size: contain;
+  }
+  .small-dots-hash {
+    height: 111px;
+    margin-top: 25%;
+    margin-left: 11%;
+  }
+  .large-dots-hash {
+    height: 68px;
+    margin-top: 10%;
+    margin-left: 55%;
   }
   .intro-content {
     flex-direction: column;
@@ -632,7 +681,7 @@ textarea {
   .dot-large {
     width: 53%;
     height: auto;
-    background-position: 44px 9%;
+    background-position: 42px 9%;
   }
   .services-container {
     flex-direction: column;
@@ -712,6 +761,10 @@ textarea {
     margin-top: 7%;
     width: 40% !important;
   }
+  .headshot-img {
+    width: 34.3%;
+    height: 75%;
+  }
   .dot-small {
     margin-top: 12%;
   }
@@ -720,6 +773,17 @@ textarea {
   }
   .dot-medium {
     margin-right: 7%;
+  }
+  .large-dots-hash {
+    margin-top: 28%;
+    background-size: contain;
+  }
+  .small-dots-hash {
+    margin-left: 21%;
+    margin-top: 20%;
+    background-size: contain;
+    width: 30%;
+    height: 210px;
   }
   .main-btn {
     width: 15%;
