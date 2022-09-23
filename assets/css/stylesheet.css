@@ -277,11 +277,6 @@ textarea {
   margin-top: 25%;
   margin-left: 11%;
 }
-/* do i need this contain? */
-.large-dots-hash,
-.small-dots-hash {
-  background-size: contain;
-}
 
 .main-btn {
   width: 28%;
@@ -606,234 +601,6 @@ textarea {
 #submit {
   width: 100%;
 }
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) { */
-/* body,
-  html {
-    max-width: 100%;
-    height: auto;
-  } */
-/* header {
-    margin: 3% 0%;
-  } */
-/* input,
-  textarea {
-    width: 100%;
-  } */
-/* form h2 {
-    font-size: 27px;
-    line-height: 36px;
-  } */
-/* header {
-    margin: 0;
-    padding: 2% 0;
-  } */
-/* .mobile-only {
-    display: block;
-  } */
-/* .laptop-only {
-    display: none;
-  } */
-/* .logo-container {
-    width: 77% !important;
-    margin-left: 3%;
-  } */
-/* .logo {
-    height: 30px;
-  } */
-/* .full-name-logo {
-    background-size: cover;
-    width: 47%;
-    height: 70%;
-  } */
-/* .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #252b3a;
-  }
-  .hamburger {
-    left: 85%;
-    position: fixed;
-    cursor: pointer;
-  }
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  .mobile-menu {
-    position: absolute;
-    left: -100%;
-    top: 44px;
-    background-color: #fff;
-    width: 100% !important;
-    transition: 0.3s;
-    z-index: 1000 !important;
-  }
-
-  .mobile-menu ul {
-    flex-direction: column;
-    width: 100% !important;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-  }
-  .mobile-menu li {
-    margin: 16px 0;
-  }
-  .mobile-menu.active {
-    left: 0;
-  } */
-/* .landing-page-container {
-    flex-direction: column;
-    margin-top: 10%;
-  } */
-/* .headshot-img {
-    width: 68%;
-    margin-top: 5%;
-    max-height: 280px;
-  } */
-/* .dots-hash-container{
-    width: 76%;
-    height: 45%;
-    top: 9%;
-    left: 9%;
-  } */
-/* .large-dots-hash, .small-dots-hash {
-    background-size: contain;
-  } */
-/* .small-dots-hash {
-    height: 111px;
-    margin-top: 25%;
-    margin-left: 11%;
-  } */
-/* .large-dots-hash {
-    height: 68px;
-    margin-top: 10%;
-    margin-left: 55%;
-  } */
-/* .intro-content {
-    flex-direction: column;
-    width: 95% !important;
-    margin: 88% 0 0 2%;
-  } */
-/* .intro-content h2 {
-    margin-top: 0px;
-    font-size: 26px;
-    line-height: 36px;
-  } */
-/* .intro-content p {
-    font-size: 14px;
-    line-height: 28px;
-  } */
-/* .intro-buttons {
-  justify-content: space-around;
- } */
-/* .main-btn {
-  width: 28%;
- } */
-/* .dots-container {
-    width: 100%;
-  } */
-/* .dot-small-container {
-    height: 35%;
-  } */
-/* .dots-pair-container{
-    flex-direction: row-reverse;
-  } */
-/* .dot-small {
-    width: 100%;
-    height: 44%;
-    margin: 7% 0 0;
-
-  } */
-/* .dot-medium {
-    width: 27%;
-    height: 56%;
-    margin-left: 10%;
-    margin-top: 34%;
-  } */
-/* .dot-large {
-    width: 53%;
-    height: auto;
-    background-position: 42px 9%;
-  } */
-/* .services-container {
-    flex-direction: column;
-    padding: 0;
-  } */
-
-/* .service-box,
-  .work-img-container {
-    width: 100%;
-    margin: 0 0 5%;
-  } */
-/* .work-img-container {
-    height: 36vh;
-  } */
-
-/* .section-container {
-    flex-direction: column;
-    height: 100%;
-  } */
-/* .about-container {
-    flex-direction: column;
-    margin: 0 5%;
-    align-items: center;
-  } */
-
-/* .about-container h2 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  .about-container p {
-    font-size: 15px;
-    line-height: 26px;
-  } */
-
-/* .about-text-container {
-    width: 100%;
-  } */
-/* .about-img-container {
-    width: 70%;
-  } */
-/* .contact-container {
-    margin: 0 5%;
-    width: 90%;
-    padding: 60px 30px;
-    height: 90vh;
-  } */
-/* #services,
-  #work,
-  #about {
-    padding: 0;
-  } */
-/* #services h2,
-  #work h2 {
-    margin-top: 12%;
-  } */
-/* #about h2 {
-    margin-top: 15%;
-  } */
-/* #work,
-  #about,
-  #contact {
-    height: 100%;
-  } */
-/* #contact {
-    padding-top: 13%;
-  } */
-/* } */
 /* MEDIUM DEVICES */
 @media only screen and (min-width: 768px) {
   header {
@@ -953,52 +720,6 @@ textarea {
 }
 /* LARGE DEVICES */
 @media only screen and (min-width: 992px) {
-  /* .landing-page-container {
-    margin-top: 10%;
-    height: 75%;
-  }
-  .intro-content {
-    margin-left: 10%;
-    margin-top: 7%;
-    width: 40% !important;
-  }
-  .headshot-img {
-    width: 34.3%;
-    height: 75%;
-  }
-  .dot-small {
-    margin-top: 12%;
-  }
-  .dot-large {
-    margin-left: 10%;
-  }
-  .dot-medium {
-    margin-right: 7%;
-  }
-  .large-dots-hash {
-    margin-top: 28%;
-    background-size: contain;
-  }
-  .small-dots-hash {
-    margin-left: 21%;
-    margin-top: 20%;
-    background-size: contain;
-    width: 30%;
-    height: 210px;
-  }
-  .main-btn {
-    width: 15%;
-  }
-  .about-container {
-    align-items: center;
-  }
-  .about-img-container {
-    width: 35%;
-    height: 65vh;
-  }
-  .about-img {
-    height: 48%;
-  } */
   body,
   html {
     max-width: 1387px;
@@ -1053,7 +774,7 @@ textarea {
     position: absolute;
     z-index: 1;
     width: 28%;
-    height:54%;
+    height: 54%;
     max-height: 510px;
     margin-left: 62%;
   }
@@ -1083,16 +804,14 @@ textarea {
     width: 18%;
   }
   .dots-hash-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 40%;
     margin-top: 10%;
-    /* margin: auto; */
     width: 45%;
     height: 58%;
-    /* top: 12%; */
-    /* left: 46%; */
   }
   .dot-small {
     width: auto;
@@ -1139,13 +858,14 @@ textarea {
     height: 80vh;
     padding: 60px 100px;
   }
-  .about-text-container h2, .about-img-container h2 {
+  .about-text-container h2,
+  .about-img-container h2 {
     font-size: 28px;
     line-height: 36px;
-}
-.about-text-container p {
-  font-size: 16px;
-}
+  }
+  .about-text-container p {
+    font-size: 16px;
+  }
   #services,
   #work,
   #about,
