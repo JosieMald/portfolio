@@ -44,7 +44,7 @@
   <body>
     <main class="flex" id="home">
       <header class="flex">
-        <div class="logo-container flex" style="width: 31%">
+        <div class="logo-container flex" style="width: 77%">
           <img
             class="logo"
             src="./assets/imgs/logo.svg"
@@ -52,7 +52,16 @@
           />
           <div class="full-name-logo"></div>
         </div>
-        <nav class="mobile-menu flex" style="width: 60%">
+        <nav class="flex laptop-only" style="width: 100%">
+          <ul class="flex" style="width: 100%">
+            <li><a class="menu-link" href="#home">Home</a></li>
+            <li><a class="menu-link" href="#about">About</a></li>
+            <li><a class="menu-link" href="#services">Services</a></li>
+            <li><a class="menu-link" href="#work">Work</a></li>
+            <li><a href="#contact" class="all-btns menu-link">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="mobile-menu border flex mobile-only" style="width: 100%">
           <ul class="flex" style="width: 70%">
             <li><a class="menu-link" href="#home">Home</a></li>
             <li><a class="menu-link" href="#about">About</a></li>
@@ -68,8 +77,8 @@
         </div>
       </header>
       <section class="landing-page-container flex">
-        <div class="headshot-img"></div>
-        <div class="intro-content flex" style="width: 47%">
+        <div class="headshot-img mobile-only"></div>
+        <div class="intro-content flex" style="width: 95%">
           <h2>
             I'm Josie, a
             <span style="color: #714aff; font-family: Raleway, sans-serif"
@@ -100,11 +109,11 @@
             <div class="dot-medium"></div>
           </div>
         </div>
-        <div class="dots-hash-container">
+        <div class="headshot-img laptop-only"></div>
+        <div class="dots-hash-container flex">
           <div class="large-dots-hash"></div>
           <div class="small-dots-hash"></div>
         </div>
-        <div class="headshot-img laptop-only"></div>
       </section>
     </main>
     <section id="services" class="flex">
