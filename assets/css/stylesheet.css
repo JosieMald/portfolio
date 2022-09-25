@@ -428,8 +428,8 @@ textarea {
   background: url("../imgs/projects/enlighten.jpg");
 }
 
-.tracker {
-  background: url("../imgs/projects/tracker.jpg");
+.seo {
+  background: url("../imgs/projects/seo.jpg");
 }
 
 .bg-properties {
@@ -719,7 +719,7 @@ textarea {
   }
   #about h2 {
     margin-top: 17%;
-}
+  }
 }
 /* LARGE DEVICES */
 @media only screen and (min-width: 992px) {
@@ -758,6 +758,10 @@ textarea {
   .full-name-logo {
     width: 50%;
     height: 53%;
+  }
+
+  .all-btns {
+    font-size: 14px;
   }
 
   .landing-page-container {
@@ -841,7 +845,8 @@ textarea {
   }
   .work-img-container {
     width: 32.4%;
-    height: 48%;
+    height: 52%;
+    margin: 0 0 1%;
   }
   .about-container {
     flex-direction: row;
@@ -882,5 +887,5 @@ textarea {
   }
   #about h2 {
     margin-top: 15%;
-}
+  }
 }
