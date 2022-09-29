@@ -758,6 +758,7 @@ textarea {
   .full-name-logo {
     width: 50%;
     height: 53%;
+    min-height: 30px;
   }
 
   .all-btns {
@@ -782,6 +783,7 @@ textarea {
     z-index: 1;
     width: 28%;
     height: 54%;
+    min-height: 452px;
     max-height: 510px;
     margin-left: 62%;
   }
